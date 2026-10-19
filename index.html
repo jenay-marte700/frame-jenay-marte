@@ -1,23 +1,44 @@
+
 <!DOCTYPE html>
 <html lang="en">
- 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Frame</title>
+    <title>PinkPantheress Music iPod</title>
     <link rel="stylesheet" href="styles.css">
 </head>
- 
 <body>
-    <ul class="frame">
-        <!-- Example item: 
-            <li>
-                <img src="https://images.dog.ceo/breeds/spaniel-cocker/n02102318_9670.jpg">
-            </li> 
-        -->
-    </ul>
+    <div class="scene">
+
+        <img
+            class="pinkpantheress"
+            src="images/pink-cutout.png"
+            alt="PinkPantheress">
+
+        <div class="ipod">
+            <div class="screen">
+                <h3>Now Playing</h3>
+
+                <img id="cover" src="" alt="Album cover">
+
+                <p id="artist">Loading...</p>
+                <p id="album"></p>
+                <p id="number"></p>
+
+                <ul class="frame"></ul>
+            </div>
+
+            <div class="wheel">
+                <button id="previous">⏮</button>
+                <button id="menu">MENU</button>
+                <button id="next">⏭</button>
+                <button id="select"></button>
+                <button id="pauseplay">⏯</button>
+            </div>
+        </div>
+
+    </div>
+
     <script src="script.js"></script>
 </body>
- 
 </html>
- 
