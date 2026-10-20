@@ -3,6 +3,7 @@
     box-sizing: border-box;
 }
 
+
 body {
     margin: 0;
     min-height: 100vh;
@@ -12,6 +13,7 @@ body {
     background: #fefeff;
     font-family: Arial, sans-serif;
 }
+
 
 /* container */
 .scene {
@@ -152,13 +154,22 @@ body {
     font-size: 10px;
 }
 
+
 .logo {
     position: absolute;
-    top: 5px;
-    left: 0%;
+    top: 20px;
+    left: 50%;
     transform: translateX(-50%);
-    width: 10px;
+    width: auto;
+    text-align: center;
 }
+
+.logo img {
+    display: block;
+    width: 350px;
+    height: auto;
+}
+
 
 
 @media (max-width: 680px) {
