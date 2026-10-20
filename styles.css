@@ -152,6 +152,14 @@ body {
     font-size: 10px;
 }
 
+.logo {
+    position: absolute;
+    top: 5px;
+    left: 0%;
+    transform: translateX(-50%);
+    width: 10px;
+}
+
 
 @media (max-width: 680px) {
     .scene {
@@ -163,4 +171,5 @@ body {
     body {
         overflow-x: hidden;
     }
+
 }
