@@ -14,14 +14,14 @@ async function getData() {
     const response = await fetch(url);
     const data = await response.json();
 
-// filter songs by artist
+// songs by pink 
     const songs = data.results.filter(song =>
         song.artistName.toLowerCase() === artist.toLowerCase()
         && song.collectionName
         && song.artworkUrl100
     );
 
-    // remove duplicates
+    // remove duplicates 
     albums = [];
 
     for (let song of songs) {
